@@ -29,6 +29,7 @@ public class MyGiftServices {
 	
 	public Object formulario(Request request, Response response) 
 	{
+		response.header("Access-Control-Allow-Origin","*");
 		String nome = request.queryParams("nome");
 		int idade = Integer.parseInt(request.queryParams("idade"));
 		char sexo = request.queryParams("sexo").charAt(0);
@@ -60,6 +61,7 @@ public class MyGiftServices {
 	public Object autoformulario(Request request, Response response)
 	{
 		MyGiftDAO.conectar();
+		response.header("Access-Control-Allow-Origin","*");
 		String email = request.queryParams("email");
 		//checkbox valor do presente
 		char valorpresente = request.queryParams("valor").charAt(0);
@@ -91,6 +93,7 @@ public class MyGiftServices {
 	public Object acharProduto(Request request, Response response)
 	{
 		MyGiftDAO.conectar();
+		response.header("Access-Control-Allow-Origin","*");
 		int id = Integer.parseInt(request.params(":id"));
 		Produtos produto = MyGiftDAO.getProduto_id(id);
 		
@@ -119,6 +122,7 @@ public class MyGiftServices {
 	public Object login(Request request, Response response)
 	{
 		MyGiftDAO.conectar();
+		response.header("Access-Control-Allow-Origin","*");
 		String email = request.queryParams("email");
 		String senha = request.queryParams("senha");
 		boolean verificacao = false;
@@ -141,6 +145,7 @@ public class MyGiftServices {
 	public Object cadastro(Request request, Response response)
 	{
 		MyGiftDAO.conectar();
+		response.header("Access-Control-Allow-Origin","*");
 		boolean status = false;
 		String email = request.queryParams("email");
 		//verificar se esse email ja existe
@@ -170,6 +175,7 @@ public class MyGiftServices {
 	public Object esqueciSenha(Request request, Response response)
 	{
 		MyGiftDAO.conectar();
+		response.header("Access-Control-Allow-Origin","*");
 		boolean status = false;
 		String email = request.queryParams("email");
 		String resposta = request.queryParams("resposta");
@@ -197,6 +203,7 @@ public class MyGiftServices {
 	public Object listarProdutos(Request request, Response response)
 	{
 		MyGiftDAO.conectar();
+		response.header("Access-Control-Allow-Origin","*");
 		Produtos[] produtos = MyGiftDAO.getProdutos();
 		
 		produtos = MyGiftCore.Insercao(produtos);
@@ -222,6 +229,7 @@ public class MyGiftServices {
 	public Object inserirProduto(Request request, Response response)
 	{
 		MyGiftDAO.conectar();
+		response.header("Access-Control-Allow-Origin","*");
 		boolean resp = false;
 		boolean[] temp = new boolean[24];
 		for (int i = 0;i < 24;i++)
@@ -249,6 +257,7 @@ public class MyGiftServices {
 	public Object deletarProduto(Request request, Response response)
 	{
 		MyGiftDAO.conectar();
+		response.header("Access-Control-Allow-Origin","*");
 		int id = Integer.parseInt(request.queryParams("id"));
 		boolean isDeletado = MyGiftDAO.excluirProduto(id);
 		
@@ -264,6 +273,7 @@ public class MyGiftServices {
 	public Object alterarProduto(Request request, Response response)
 	{
 		MyGiftDAO.conectar();
+		response.header("Access-Control-Allow-Origin","*");
 		boolean[] temp = new boolean[24];
 		for (int i = 0;i < 24;i++)
 		{
@@ -288,6 +298,7 @@ public class MyGiftServices {
 	public Object getProduto(Request request, Response response)
 	{
 		MyGiftDAO.conectar();
+		response.header("Access-Control-Allow-Origin","*");
 		int id = Integer.parseInt(request.params(":id"));
 		Produtos produto = MyGiftDAO.getProduto_id(id);
 		
