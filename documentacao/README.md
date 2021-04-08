@@ -1,12 +1,13 @@
 # MyGift, Relatório Final
 
-**
+**Guilherme Rodrigues Viana Saraiva, guilhermesaraiva1.gs@gmail.com**
 
 **Marcos Ani Cury Vinagre Silva, curymarcos@live.com**
 
 **Letícia Americano Lucas, leticia.americano.lucas@gmail.com**
 
 **Samuel Soares Macedo Leão e Silva, samuca.smals02@gmail.com**
+
 ---
 
 _Curso de Ciência da Computação, Unidade Coração Eucarístico_
