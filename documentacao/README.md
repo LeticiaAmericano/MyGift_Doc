@@ -1,14 +1,12 @@
 # MyGift, Relatório Final
 
+**
 
 **Marcos Ani Cury Vinagre Silva, curymarcos@live.com**
 
 **Letícia Americano Lucas, leticia.americano.lucas@gmail.com**
 
-**Victor Leite de Andrade, victor.leite2001@gmail.com**
-
-**Ludmila Bruna Santos Nascimento, ludbruna2009@hotmail.com**
-
+**Samuel Soares Macedo Leão e Silva, samuca.smals02@gmail.com**
 ---
 
 _Curso de Ciência da Computação, Unidade Coração Eucarístico_
@@ -359,10 +357,6 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 19.	Classe ProdutoServices do Back-and
 20.	API 
 21.	Chatbot
- 
-Para facilitar o entendimento e acompanhamento do grupo nos utilizamos a plataforma trello e lá poderão observar ideias e o andamento em tempo real do projeto.
-
-https://trello.com/b/AMXSOxOV/ti-2
 
 **6. Avaliação**
 O processo de realização dos testes da solução desenvolvida está documentado na seção que se segue e traz o plano de testes.
