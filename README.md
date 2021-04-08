@@ -9,6 +9,7 @@ A ideia do nosso projeto é criar uma aplicação que escolhe o presente ideal p
 * Guilherme Rodrigues Viana Saraiva
 * Letícia Americano Lucas
 * Marcos Ani Cury Vinagre Silva
+* Samuel Soares Macedo Leão e Silva
 
 ## Ideia Inicial
 
@@ -18,4 +19,4 @@ Uma feramenta para facilitar a compra de presentes, o problema encontrado pelo n
 
 * Front-End - Leticia
 * Back-and e Lider do grupo - Marcos
-* Marketing e Identidade visual, Guilherme Rodrigues Viana Saraiva
+* Marketing e Identidade visual - Guilherme Rodrigues Viana Saraiva e Samuel Soares Macedo Leão e Silva
