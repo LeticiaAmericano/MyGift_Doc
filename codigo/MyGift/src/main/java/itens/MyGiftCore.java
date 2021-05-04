@@ -1,6 +1,5 @@
 package itens;
-import  java.util.Random;
-
+import java.util.Random;
 import itens.MyIO;
 import static spark.Spark.*;
 
@@ -94,7 +93,7 @@ public class MyGiftCore {
 		return hobbies;
 	}
 	
-	//ordenação por inserção
+	//ordenaï¿½ï¿½o por inserï¿½ï¿½o
 	public static Produtos[] Insercao(Produtos[] produtos)
     {
         for (int i = 1; i < produtos.length; i++) 
