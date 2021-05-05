@@ -1,3 +1,3 @@
 # Vídeos do Projeto
 
-Arquivos de videos presentes para divulgação do projeto.
+Arquivos de videos para divulgação do projeto.
