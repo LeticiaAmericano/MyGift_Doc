@@ -9,7 +9,7 @@ Os principais documentos a serem produzidos são:
 	* Script de criação do banco de dados.
 
 * `diagrama entidade relacionamento`
-	* Apresentar o DER em imagem vetorial para eviar perda de qualidade com renderização em resolução específica.
+	* Apresentar o DER em imagem vetorial para evitar perda de qualidade com renderização em resolução específica.
 	* Arquivo DiagramaEntidadeRelacionamentos.png
 
 Demais artefatos que julgar pertinentes.
