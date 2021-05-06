@@ -2,7 +2,7 @@
 
 ## Um projeto de um marketplace desenvolvido por mim e minha equipe, sendo o líder da equipe e programador príncipal do back-and do site.
 
-A ideia do nosso projeto é criar uma aplicação que escolhe o presente ideal para um usuário presentear alguém.
+A ideia do nosso projeto é criar um marketplace com o diferêncial de ajudar a pessoa a escolhar o presente ideal pra presentear alguém.
 
 ## Alunos integrantes da equipe
 
