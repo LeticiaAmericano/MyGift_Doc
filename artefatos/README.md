@@ -15,3 +15,7 @@ Este diretório mantém os artefatos do projeto.
 	* **DiagramaEntidadeRelacionamento.png**: DER utilizado para a contrução do nosso banco de dados
 	* **ModeloRelacional.png**: Modelagem Relacional utilizado para a contrução do banco de dados
 	* **DicionárioDeDados.cvs**: Dicionário que contem todas as tuplas e tabelas do nosso banco de dados explicadas
+
+* `/Fluxogramas`
+	* **Fluxo de dialogo-Chatbot.png**: Fluxo de dados do chatbot utilizado na aplicação
+	* **FluxogramaPortal.png**: Fluxograma da nossa aplicação em sí 	
