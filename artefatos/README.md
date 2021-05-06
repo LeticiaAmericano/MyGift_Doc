@@ -3,8 +3,8 @@
 Este diretório mantém os artefatos do projeto. 
 
 * `Atas:`
-	* **Ata_05_05_2021.md**: Ata de reunião do dia 05 de maio de 2020.
-	* **Ata_30_04_2021.md**: Ata de reunião do dia 30 de abril de 2020.
+	* **[Ata_05_05_2021.md](https://github.com/MarcosAniCury/MyGift_Doc/blob/main/artefatos/Atas/Ata_30_04_2021.md)**: Ata de reunião do dia 05 de maio de 2020.
+	* **[Ata_30_04_2021.md](https://github.com/MarcosAniCury/MyGift_Doc/blob/main/artefatos/Atas/Ata_05_05_2021.md)**: Ata de reunião do dia 30 de abril de 2020.
 
 * `Ferramenta para organização de tarefas e anotações de futuras atualizações:` 
  	* **https://trello.com/b/VN7HhCLo/mygift.
