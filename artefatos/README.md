@@ -2,15 +2,16 @@
 
 Este diretório mantém os artefatos do projeto. 
 
-
-Liste os artefatos produzidos, com suas localizações e descrição do conteúdo.
-
-Por exemplo, pode-se criar um diretório "atas", que seria descrito da seguinte forma:
-* `/atas`
+* `/Atas`
 	* **Ata_xx_ago_2020.docx**: Ata de reunião do dia xx de agosto de 2020.
 
-Pode-se também criar um diretório "canvas", que seria descrito da seguinte forma:
-* `/canvas`
+* `/Canvas`
 	* **BusinessModelCanvas.pdf**: Canvas do modelo de negócios.
 
-Assim, sucessivamente para outros artefatos como `processos` e `DER`, etc.
+* `/Dados`
+	* **LinkChatBot.txt**: Link que leva ao teste do bot individualmente
+
+* `/Banco de dados`
+	* **DiagramaEntidadeRelacionamento.png**: DER utilizado para a contrução do nosso banco de dados
+	* **ModeloRelacional.png**: Modelagem Relacional utilizado para a contrução do banco de dados
+	* **DicionárioDeDados.cvs**: Dicionário que contem todas as tuplas e tabelas do nosso banco de dados explicadas
