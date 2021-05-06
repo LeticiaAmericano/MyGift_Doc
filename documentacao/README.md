@@ -1,57 +1,60 @@
-# MyGift, Relatório Final
-
-**Guilherme Rodrigues Viana Saraiva, guilhermesaraiva1.gs@gmail.com**
-
-**Marcos Ani Cury Vinagre Silva, curymarcos@live.com**
-
-**Letícia Americano Lucas, leticia.americano.lucas@gmail.com**
-
-**Samuel Soares Macedo Leão e Silva, samuca.smals02@gmail.com**
+# MyGift
 
 ---
 
-_Curso de Ciência da Computação, Unidade Coração Eucarístico_
+### Integrantes:
 
-_Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Minas Gerais (PUC MINAS), Belo Horizonte – MG – Brasil_
+- Guilherme Rodrigues Viana Saraiva, guilhermesaraiva1.gs@gmail.com
+
+- Letícia Americano Lucas, leticia.americano.lucas@gmail.com
+
+- Marcos Ani Cury Vinagre Silva, curymarcos@live.com
+
+- Samuel Soares Macedo Leão e Silva, samuca.smals02@gmail.com
 
 ---
 
-_**Resumo**. O projeto consiste em um portal aonde o usuário poderá acessar, e preenchendo um formulário sobre uma pessoa pra quem você deseja comprar presente uma IA irá escolher com base no perfil o melhor presente possível, além disso o site terá um sistema de chatbot para poder poder tirar dúvidas do cliente, além de catálogos com diversos produtos._
+Curso de Ciência da Computação - Curso Publicidade e Propaganda
+
+Pontifícia Universidade de Minas Gerais (PUC MINAS) - Coração Eucarístico, Belo Horizonte – MG – Brasil
 
 ---
 
+**Resumo**. O projeto consiste em marketplace com o diferencial de ajudar o cliente a escolher o presente ideal, por meio de uma IA, para presentear alguém. 
 
+**Abstract**. The project consists of a marketplace with the differential of helping the customer to choose the ideal gift, through an AI, to present to someone.
 
-**1. Introdução**
+---
 
-Hodiernamente, tem-se o costume de presentear alguém em datas comemorativas, como o natal, aniversário, dia das mães, dos pais e das crianças, ou em momentos de comemoração. No Brasil, esse costume é muito valorizado e presente em diversas comunidades e famílias, assim, há o hábito de comprar presentes para seus parceiros, parentes, familiares e amigos. 
-Dessa maneira, é de conhecimento geral que fortemente vigente na sociedade brasileira, a falta de uma lembrança quando algo é comemorado é até visto com maus olhos, dessa forma é de vontade da maioria agradar o presenteado. Porém, como acontece com qualquer indivíduo, é difícil agradar o gosto ou saber o que comprar, assim tentamos prover uma solução para tal problema.
+## 1. Introdução
 
+Hodiernamente, possui-se o costume de presentear alguém em momentos de comemoração. Para mais, no Brasil, esse costume é muito valorizado e presente em diversas comunidades e famílias, assim, construindo o hábito de comprar presentes para seus parceiros, parentes, familiares e amigos. 
+Dessa maneira, é de conhecimento geral e fortemente vigente na sociedade brasileira, a falta de uma presente quando algo é comemorado, dessa forma é de vontade da maioria agradar o presenteado. Porém, como acontece com qualquer indivíduo, é difícil agradar o gosto ou saber o que comprar, dessa forma tentamos prover uma solução para tal problema.
 
-    1.1 Contextualização
+ **1.1 Contextualização**
     
-Quem nunca passou pelo desafio de presentear alguém, ou teve que disfarçar o constrangimento ao ganhar algo do qual não gostou muito? Mesmo em conhecendo a pessoa a muito tempo, é muito comum ter dificuldades para encontrar algo que agrade e surpreenda.
+Quem nunca passou pelo desafio de presentear alguém, ou teve que disfarçar o constrangimento ao ganhar algo do qual não gostou muito? Mesmo conhecendo a pessoa a muito tempo, é muito comum ter dificuldades para encontrar algo que agrade e surpreenda para presentear. 
 
-    1.2 Problema
+**1.2 Problema**
     
-Não é incomum encontrar algumas pessoas que têm uma extrema dificuldade de dar presentes em épocas de festividades. 
+Dificuldade de encontrar pessoas que têm uma extrema dificuldade de dar o presente certo em épocas de festividades. 
  
-    1.3 Objetivo geral
+**1.3 Objetivo geral**
 
-O nosso objetivo geral é criar um portal com uma API ao qual vai ajudar as pessoas a comprarem presentes ideal para presentear alguém. Assim, coletando informações dos presenteados pelo usuário e do próprio, poderemos aumentar a resposta da API para ser mais especifica e certa. 
+O objetivo geral é criar um marketplace com uma API ao qual vai ajudar as pessoas a comprarem presentes ideal para alguém. Assim, coletando informações dos presenteados pelo usuário e do próprio, poderemos aumentar a resposta da API para ser mais especifica e certa. 
 
-    1.3.1 Objetivos específicos
+**1.3.1 Objetivos específicos**
 
-•	Um portal que ajuda o usuário na escolha dos presentes;\
-•	Utilizar um chatbot para ajudar o usuário;\
-•	Uma IA que consiga acertar com uma certa precisão com base no perfil de uma pessoa;
+* Um portal que ajuda o usuário na escolha dos presentes;
+* Utilizar um chatbot para ajudar o usuário;
+•	Uma IA que consiga com uma certa precisão oferecer um presente ideal com base no perfil de uma pessoa;
 
-    1.4 Justificativas
+**1.4 Justificativas**
 
 Os membros do grupo no momento em que se reuniram para discutir sobre o tema, perceberam em seus ciclos de amizade e em seus ambientes familiares, que uma vasta quantidade de pessoas perde um longo tempo pensando o que dar para quem se deseja presentear em alguma ocasião.
 Posteriormente, foi executada uma pesquisa de mercado para coletar informações com o propósito de identificar oportunidades e problemas inerentes à área de atuação do grupo e dos seus serviços.
 
-    1.4.1 Questionário Realizado
+**1.4.1 Questionário Realizado**
     
 As seguintes perguntas foram elaboradas com o objetivo de adquirir um maior embasamento sobre o contexto do projeto. Além disso, com a análise das perguntas foi possível comprovar a necessidade da elaboração do produto no mercado atual.
 Por fim, as entrevistas foram realizadas diretamente com os amigos e familiares da equipe (cerca de 34 pessoas) com a finalidade de se obter as informações com a maior veracidade possível, sendo eles possíveis usuários da aplicação em estado de aperfeiçoamento.
@@ -75,22 +78,21 @@ As perguntas foram efetuadas nesta ordem, utilizando como plataforma o Google Fo
 |14|Quanto você estaria disposto a gastar em um presente?|
 |15|Você usaria um site que escolhe o melhor presente para presentear alguém?|
 
-    1.5 Público alvo
+**1.5 Público alvo**
 
 Embora todas as pessoas que buscam comprar um presente sejam adequadas para a aplicação, o nosso público alvo escolhido foi mulheres com em média 20 há 45 anos pois elas têm o costuma maior de comprar presentes.
 
-**2. Especificação do projeto**
+## 2. Especificação do projeto
 
 A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em uma pesquisa sobre pessoas que necessitavam de ajuda para comprar presentes. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
 
-* **Personas**
+* Personas:
 
 As personas levantadas durante o processo de entendimento do problema são apresentadas nas Figuras que se seguem.
 
-* **Histórias de usuários**
+* Histórias de usuários:
 
 A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários.
-
 
 | Eu como …  [PERSONA]    | Descrição                       | … quero/desejo … [O QUE] |
 |:------------- |:-------------------------------|:-------------------------------|
@@ -104,10 +106,9 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 |Olga Camargos|Site que ajude a comprar presentes ideais|Comprar presentes que agradem a família|
 |Felipe Cassimiro|Site que sugira um presente de acordo com características do individuo|Conseguir escolher rápido presentes para amigos e parceiro|
 
+## 3. Projeto da Solução
 
-**3. Projeto da Solução**
-
-    3.1 Requisitos funcionais
+**3.1 Requisitos funcionais**
 	
 A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues.
 
@@ -124,7 +125,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-09|O site deve permitir login de administrador |Média|
 |RF-10|O site deve apresentar e permitir o perfil do próprio usuário|Média|
 
-    3.2 Tecnologias
+**3.2 Tecnologias**
 
 Nesta seção são apresentados os detalhes técnicos da solução criada pela equipe, tratando da Arquitetura da Solução, as estruturas de dados e as telas já implementadas.
 A solução implementada conta com os seguintes módulos:
